@@ -35,8 +35,9 @@ const runningSumOfArray = (arr) => {
 // [89, 41, 31, 111, 31]
 //
 
-const output = [];
+
 const oddFiltration = (arr) => {
+  const output = [];
   for (let i = 0; i < arr.length; i++){
     if ((arr[i] % 2) !== 0){
         output.push(arr[i]);
